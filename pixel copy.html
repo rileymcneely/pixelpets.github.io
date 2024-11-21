@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <title>pixelpets</title>	
+            <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />    
+            <link href="css/styles.css" rel="stylesheet" type="text/css" />
+            <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="js/script.js" defer></script>
+        </head>
+<body>
+
+<div id="intro"> 
+    <p> pixel pets</p>
+    <img id="start" src="images/startimg.jpeg" alt="Start"/>
+</div>
+
+<div class="q1">
+    <p> what's your favorite pet? </p>
+    <img class ="cat" id ="catclick" src="images/catan.gif" alt="Cat"/>
+    <img class ="dog" id ="dogclick" src="images/dogan.gif" alt="Dog"/>
+    
+</div>
+<div class="q2C">
+    <p> pick a color. </p>
+    <img class= "cats" id="black" src="images/catblack.PNG" alt="black cat"/>
+    <img class= "cats" id="whiteC" src="images/catwhite.PNG" alt="white cat"/>
+    <img class= "cats" id="beige" src="images/catbeige.PNG" alt="beige cat"/>
+    <img class= "cats" id="grey" src="images/catgrey.PNG" alt="grey cat"/>
+
+</div>
+<div class="q2D">
+    <p>pick a breed.</p>
+    <img class= "dogs" id="corgi" src="images/dogcorgi.PNG" alt="corgi dog"/>
+    <img class= "dogs" id="husky" src="images/doghusky.PNG" alt="husky dog"/>
+    <img class= "dogs" id="shepherd" src="images/dogshepherd.PNG" alt="german shepherd dog"/>
+    <img class= "dogs" id="whiteD" src="images/dogwhite.PNG" alt="white dog"/>
+</div>
+<div class="q3">
+<p> outfit?</p> 
+    <p id="cowboyfit"> cowboy </p>
+    <p id="police"> police </p>
+    <p id="ballerina"> ballerina </p>
+    <img id="president" src="https://petcube.com/blog/content/images/2018/10/trump-dog-costume-halloween.jpeg" alt="placehold"/>
+
+</div>
+
+<div class="q4">
+    <p> accessory? </p>
+    <img class="accessory" id="cowboyhat" src="images/cowboyhat.png" alt="cowboy hat"/>
+    <img class="accessory" id="halo" src="images/halo.PNG" alt="yellow halo"/>
+    <img class="accessory" id="flower" src="images/flower.png" alt="pink flower"/>
+    <img class="accessory" id="tophat" src="images/tophat.png" alt="top hat"/>
+</div>
+
+<div class="q5">
+    <p> toy? </p>
+    <img id="mouse" src="images/mouse.png" alt="toy mouse"/>
+    <img id="yarn" src="images/yarn.png" alt="yarn ball"/>
+    <img id="ball" src="images/tennisball.png" alt="tennis ball"/>
+    <img id="bone" src="images/bone.png" alt="bone"/>
+</div>
+<div class="q6">
+    <p>name?</p>
+    <input type="text" id="name" placeholder="Your pet's name">
+    <p id="submit"> Submit </p>
+</div>
+
+<div class="results">
+    <p> congrats here it is </p>
+    <p id="namefield"></p>
+    <p id="playagain"> Play Again </p>
+    <br/>
+    <p> we still need the javascript to store values based on what they select. but that's it! </p>
+    <div class="Rcats" id="blackcat" style="display: none;">
+        <img id="black" src="images/catblack.PNG" alt="black kitty">
+      </div>
+      <div class="Rcats" id="greycat" style="display: none;">
+        <img id="grey" src="images/catgrey.PNG" alt="grey kitty">
+      </div>
+      <div class="Rcats" id="whitecat" style="display: none;">
+        <img id="whiteC" src="images/catwhite.PNG" alt="white kitty">
+      </div>
+      <div class="Rcats" id="beigecat" style="display: none;">
+        <img id="beige" src="images/catbeige.PNG" alt="beige kitty">
+      </div>
+
+      <div class="Rdogs" id="corgidog" style="display: none;">
+        <img id="corgi" src="images/dogcorgi.PNG" alt="corgi puppy">
+      </div>
+      <div class="Rdogs" id="whitedog" style="display: none;">
+        <img id="whiteD" src="images/dogwhite.PNG" alt="white puppy">
+      </div>
+      <div class="Rdogs" id="huskydog" style="display: none;">
+        <img id="husky" src="images/doghusky.PNG" alt="husky puppy">
+      </div>
+      <div class="Rdogs" id="shepherddog" style="display: none;">
+        <img id="shepherd" src="images/dogshepherd.PNG" alt="german shepherd puppy">
+      </div>
+
+      <div class="Raccessory" id="Rcowboyhat" style="display: none;">
+        <img id="cowboyhat" src="images/cowboyhat.png" alt="cowboy hat">
+      </div>
+      <div class="Raccessory" id="Rhalo" style="display: none;">
+        <img id="halo" src="images/halo.png" alt="cowboy hat">
+      </div>
+      <div class="Raccessory" id="Rflower" style="display: none;">
+        <img id="flower" src="images/flower.png" alt="cowboy hat">
+      </div>
+      <div class="Raccessory" id="Rtophat" style="display: none;">
+        <img id="tophat" src="images/tophat.png" alt="cowboy hat">
+      </div>
+      
+      <div class="Rtoy" id="Rmouse" style="display: none;">
+        <img id="mouse" src="images/mouse.png" alt="cowboy hat">
+      </div>
+      <div class="Rtoy" id="Ryarn" style="display: none;">
+        <img id="yarn" src="images/yarn.png" alt="cowboy hat">
+      </div>
+      <div class="Rtoy" id="Rball" style="display: none;">
+        <img id="Rball" src="images/tennisball.png" alt="cowboy hat">
+      </div>
+      <div class="Rtoy" id="Rbone" style="display: none;">
+        <img id="bone" src="images/bone.png" alt="cowboy hat">
+      </div>
+
+</div>
+
+        </body>
+        </html>

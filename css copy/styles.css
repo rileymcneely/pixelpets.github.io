@@ -1,0 +1,62 @@
+#intro {
+   max-width: 100%;
+   background-color: #cddbfe;
+}
+
+body {
+   font-family: "Pixelify Sans", sans-serif;
+   text-align: center;
+   background-color: #ffc2d9;
+  }
+
+  input[type=text], select {
+   font-family: "Pixelify Sans", sans-serif;
+   width: 30%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   background: #ccdcfc;
+   display: inline-block;
+   border: 2px solid #000;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+#catclick, #dogclick {
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+   display: block
+}
+
+
+.cats, .dogs {
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+   display: block;
+}
+
+.q2C, .q2D {
+
+   display: flex;
+   justify-content: center;
+}
+
+.Rcats, .Rdogs {
+   position: absolute;
+   width: 20%;
+}
+
+.accessory {
+   width: 20%;
+}
+
+.Raccessory {
+   position: absolute;
+   width: 20%;
+}
+
+.Rtoy {
+   position: absolute;
+   width: 20%;
+}
